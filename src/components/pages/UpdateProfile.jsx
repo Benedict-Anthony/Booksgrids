@@ -146,9 +146,9 @@ function UpdateProfile() {
 
 
     useEffect(() => {
-        return () => {
-            fetchOldData()
-        };
+
+        fetchOldData()
+            ;
         // eslint-disable-next-line 
     }, [])
     return (
