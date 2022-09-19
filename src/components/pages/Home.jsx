@@ -25,7 +25,7 @@ function Home() {
 
         setTrending(data.slice(0, 3))
         setTop(data.slice(0, 1))
-        setPosts(data.slice(4,))
+        setPosts(data.slice(3,))
 
         setIsLoading(false)
 
