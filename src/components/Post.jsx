@@ -26,12 +26,11 @@ export default Post
 
 
 export const AuthorPosts = ({ post }) => {
-    const imgUrl = 'http://127.0.0.1:8000'
 
     return (
         <MorePost>
             <div>
-                <img src={imgUrl + post.image} alt="" />
+                <img src={post.image} alt="" />
             </div>
             <Link to={"/detail/" + post.slug}> <p>{post.title}</p> </Link>
         </MorePost>
