@@ -103,7 +103,7 @@ function Detail() {
                             animate={"onLoaded"}>
                             <h1>{post.title}</h1>
                             <div>
-                                <img src={"http://127.0.0.1:8000" + post.image} alt="" />
+                                <img src={post.image} alt="" />
                             </div>
 
                             {post.caption ? post.caption.map((cap, index) => (
