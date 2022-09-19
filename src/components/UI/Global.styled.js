@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
     *{
         padding:0;
         margin:0;
@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
     body{
         width:100%;
         background-color:#fff;
-        font-family: 'Martel', serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     img{
